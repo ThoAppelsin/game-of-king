@@ -61,8 +61,10 @@ it won't be easy to cut it out and leave.
 I have written this client-side web application in the summer of 2016 by the request of a friend.
 He wanted a simulator for the game which he could watch and speed up on demand.
 
-The application, written in HTML/CSS/JavaScript, 
+The application, written in HTML/CSS/JavaScript, simulates a random shuffle, split, and then
+a gameplay. The cards on the 3 piles are visualized with text. Unlike in the real game,
+the simulator allows all the cards on the piles to be seen.
 
-He also wanted to be able to input the list of cards himself. This would probably help him in giving up on a game
-and let the computer simulate the rest. That functionality, is not yet available in this application.
+My friend also wanted to be able to input the list of cards himself. This would probably help him in giving up on a game
+and let the computer simulate the rest. That functionality, however, is not yet available in this application.
 It would be a tedious work to input 52 cards one by one, any way.
