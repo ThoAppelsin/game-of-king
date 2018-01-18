@@ -1,0 +1,31 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>Papaz the Game</title>
+    <meta name="description" content="Papaz the Game">
+    <meta name="author" content="Utkan Gezer">
+
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <!--<canvas id="gameboard"></canvas>-->
+
+    <input id="speedslider" type="range" min="1" max="15" value="2" autofocus>
+    <label id="speedlabel" for="speedslider"></label>
+
+    <table id="scoretable">
+        <tr><th id="leftheader">Left</th><th>Pile</th><th id="rightheader">Right</th></tr>
+        <tr>
+            <td><table id="left" class="cardtable"><tbody></tbody></table></td>
+            <td><table id="pile" class="cardtable"><tbody></tbody></table></td>
+            <td><table id="right" class="cardtable"><tbody></tbody></table></td>
+        </tr>
+    </table>
+
+    <script src="main.js"></script>
+</body>
+</html>

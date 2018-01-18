@@ -1,0 +1,64 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 9px;
+}
+
+.active::before {
+    content: "> ";
+}
+
+.active::after {
+    content: " <";
+}
+
+#speedslider {
+    display: block;
+    width: 100%;
+}
+
+#speedlabel {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 200%;
+}
+
+#scoretable {
+    border: collapse;
+    table-layout: fixed;
+    width: 100%;
+}
+
+#scoretable>td {
+    width: 100%;
+}
+
+.cardtable {
+    width: 100%;
+    position: relative;
+}
+
+.cardtable>tbody {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0);
+}
+
+.cardtable td:nth-child(1) {
+    text-align: right;
+}
+
+.cardtable td:nth-child(2) {
+    text-align: left;
+}
+
+.cardtable td:nth-child(2)::before {
+    content: "of ";
+    color: gray;
+}
+
+.cardtable td:nth-child(2)::after {
+    content: "s";
+}
