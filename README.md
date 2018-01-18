@@ -28,6 +28,18 @@ Finally, if the dealt card is a King;
 
 In any case, now it is the turn of the other player.
 
+#### Collecting the deck on the ground
+
+All the cards facing up on the ground are simply gathered and turned upside-down as a whole.
+The gathered new pile is placed underneath the pile of the player, making the player's pile larger.
+
+Except for the very beginning of the game, this is the only moment when the ground is empty,
+making it possible for a King to be left on the ground, and possibly changing owner.
+
+### Ending
+
+The game ends when all the cards are collected by a player, who also becomes the winner.
+
 ## The Catch
 
 As you may have noticed, the result of the game has absolutely nothing to do with the players' skill.
@@ -36,6 +48,8 @@ In fact, if you look carefully, the result of the game is determined at the very
 Regardless, it is a fun game, and dare I say, even mildly addictive.
 Don't believe me? Just try it with a friend and a real deck of cards.
 As innocent as it looks, you will start feeling the strange excitement in under 1-2 minutes as the pile on the ground grows.
+
+It gets even more exciting to see (and even expect to see) a King falling down on the ground.
 
 It usually takes very long, sometimes even an hour, to finish a game.
 However, once you start a game and get excited for a couple of times under 5-10 minutes,
@@ -46,6 +60,8 @@ it won't be easy to cut it out and leave.
 
 I have written this client-side web application in the summer of 2016 by the request of a friend.
 He wanted a simulator for the game which he could watch and speed up on demand.
+
+The application, written in HTML/CSS/JavaScript, 
 
 He also wanted to be able to input the list of cards himself. This would probably help him in giving up on a game
 and let the computer simulate the rest. That functionality, is not yet available in this application.
